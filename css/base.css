@@ -5,7 +5,7 @@
     --color-muted: #767676;
     --color-background: #ffffff;
     --color-badge-bg: #d7ffe0;
-    --gradient: linear-gradient(90deg, #0a8fd0, #e70faa);
+    --gradient: linear-gradient(90deg, #00c0fd, #e70faa);
     --color-accent-purple: #8a2be2;
     --color-accent-pink: #e70faa;
     --color-border: #e5e5e5;
@@ -72,7 +72,7 @@ h3 {
 }
 
 :focus-visible {
-    outline: 3px solid var(--color-focus)
+    outline: 3px solid var(--color-focus);
     outline-offset: 3px;
 }
 
