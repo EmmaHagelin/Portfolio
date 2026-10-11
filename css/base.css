@@ -12,7 +12,7 @@
     --color-badge-text: #016d0c;
     --color-focus: #0a8fd0;
 }
-/*
+
 @media  (prefers-color-scheme: dark) {
     :root {
         --color-heading: #e6e6f0;
@@ -32,7 +32,7 @@
         filter: invert(1);
     }
 }
-*/
+
 *,
 *::before,
 *::after {
