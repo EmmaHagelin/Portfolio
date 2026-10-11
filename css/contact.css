@@ -11,16 +11,20 @@
     font-size: 1.5rem;
 }
 
-.conact-link {
+.contact-link {
     font-size: 1.25rem;
     font-weight: 700;
     text-decoration: none;
     overflow-wrap: anywhere;
 }
 
-.conact-link:hover {
+.contact-link:hover {
     text-decoration: underline;
     text-decoration-color: var(--color-accent-pink);
+}
+
+.contact-or {
+    margin: 0;
 }
 
 @media (min-width: 900px) {
@@ -31,5 +35,9 @@
     .contact-title,
     .conact-link {
         font-size: 3rem;
+    }
+
+    .mobile-only {
+        display: none;
     }
 }
